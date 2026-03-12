@@ -6,7 +6,7 @@ jobs:
   # проверять код на наличие ошибок и запускать тесты
   job1_test:
     runs-on: ubuntu-latest
-    container: golang:1.22
+    container: golang:1.24
     steps:
       - uses: actions/checkout@v4
 
